@@ -5,7 +5,7 @@ from kivy.core.window import Window
 Window.size = (350, 610)
 class MainApp(MDApp):
     def build(self):
-        return MDLabel(text="Hello, Humans", halign="center")
+        return MDLabel(text="Hello, Humans!", halign="center")
 
 
 MainApp().run()
